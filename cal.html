@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Calculator </title>
+        <script type="text/javascript" src="main.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div id="container">
+            <span id="header"> <h3>Calculator</h3></span>
+            <div id="screen">
+                <div id="upper"></div>
+                <div id="lower"></div>
+            </div>
+            <div id="buttons">
+                <div id="buttoncontainer">
+                    <div id="CE" class="button symbol" onClick="updateScreen(this.id)">CE</div>
+                    <div id="C" class="button symbol" onClick="updateScreen(this.id)">C</div>
+                    <div id="del" class="button symbol" onClick="updateScreen(this.id)"><img src="download.png"></div>
+                    <div id="/" class="button symbol" onClick="updateScreen(this.id)">/</div>
+                    <div id="7" class="button number" onClick="updateScreen(this.id)">7</div>
+                    <div id="8" class="button number" onClick="updateScreen(this.id)">8</div>
+                    <div id="9" class="button number" onClick="updateScreen(this.id)">9</div>
+                    <div id="*" class="button symbol" onClick="updateScreen(this.id)">X</div>
+                    <div id="4" class="button number" onClick="updateScreen(this.id)">4</div>
+                    <div id="5" class="button number" onClick="updateScreen(this.id)">5</div>
+                    <div id="6" class="button number" onClick="updateScreen(this.id)">6</div>
+                    <div id="-" class="button symbol" onClick="updateScreen(this.id)">-</div>
+                    <div id="1" class="button number" onClick="updateScreen(this.id)">1</div>
+                    <div id="2" class="button number" onClick="updateScreen(this.id)">2</div>
+                    <div id="3" class="button number" onClick="updateScreen(this.id)">3</div>
+                    <div id="+" class="button symbol" onClick="updateScreen(this.id)">+</div>
+                    <div id="sign" class="button symbol" onClick="updateScreen(this.id)"><img src="sign.png"></div>
+                    <div id="0" class="button number" onClick="updateScreen(this.id)">0</div>
+                    <div id="." class="button symbol" onClick="updateScreen(this.id)">.</div>
+                    <div id="equals" class="button symbol" onClick="updateScreen(this.id)">=</div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

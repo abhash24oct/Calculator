@@ -1,0 +1,81 @@
+*{
+   font-family: 'Varela Round', sans-serif;
+}
+
+
+#container {
+    position: fixed;
+    height: 500px;
+    margin: auto;
+    padding: 5px 20px 20px 20px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+#header{
+    text-align: center;
+}
+
+#screen{
+    width: 289px;
+    height: 92px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;;
+
+}
+
+#upper{
+    height: 40%;
+    text-align: right;
+    padding: 5px;
+}
+#lower{
+    height:29%;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#buttons{
+    height: 341px;
+    #padding: 5px 2px 5px 5px;
+    #border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+.button{
+    float: left;
+    width:30px;
+    padding: 21px;
+    border:1px solid #ccc;
+    background-color: #ffffff;
+    text-align: center;
+    margin:0.5px
+}
+
+#buttoncontainer{
+    margin:auto;
+    width:300px;
+    height: 324px;
+}
+#del img{
+    width: 20px;
+}
+#sign img{
+    width: 31px;
+}
+
+
+.number{
+    font-weight: bold;
+
+}
+
+.number:hover{
+    background-color: #cc22221f;
+}
+
+.symbol:hover{
+    background-color: #54eabf99;
+}
