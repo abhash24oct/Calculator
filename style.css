@@ -5,11 +5,12 @@
 
 #container {
     position: fixed;
-    height: 500px;
+    height: 443px;
     margin: auto;
-    padding: 5px 20px 20px 20px;
+   // padding: 5px 20px 20px 20px;
     border: 1px solid #ccc;
     background-color: #f3f3f3;
+    box-shadow:0px 0px 1px 1px cyan; 
 }
 
 #header{
@@ -19,26 +20,27 @@
 #screen{
     width: 289px;
     height: 92px;
-    padding: 5px 5px 5px 5px;
-    border: 1px solid #ccc;
-    background-color: #ffffff;;
+   padding: 5px 5px 5px 5px;
+   // border: 1px solid #ccc;
+    //background-color: #ffffff;
 
 }
 
 #upper{
-    height: 40%;
+    height: 30%;
     text-align: right;
     padding: 5px;
+    font-size: 20px;
 }
 #lower{
-    height:29%;
+    height:70%;
     text-align: right;
     font-weight: bold;
     padding: 10px;
+    font-size: 40px;
 }
 
 #buttons{
-    height: 341px;
     #padding: 5px 2px 5px 5px;
     #border: 1px solid #ccc;
     background-color: #ffffff;
@@ -56,14 +58,14 @@
 
 #buttoncontainer{
     margin:auto;
-    width:300px;
-    height: 324px;
+    width:304px;
+    height: 271px;
 }
 #del img{
-    width: 20px;
+    width: 14px;
 }
 #sign img{
-    width: 31px;
+    width: 22px;
 }
 
 
@@ -77,5 +79,9 @@
 }
 
 .symbol:hover{
-    background-color: #54eabf99;
+    background-color: cyan;
+}
+
+.symbol{
+     background-color:#f3f3f3
 }

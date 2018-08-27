@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Basic cal",
+  "description": "",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "calicon.png",
+    "default_popup": "cal.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
